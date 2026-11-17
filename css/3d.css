@@ -1,0 +1,163 @@
+#Plantilla3D{
+    width: 80%;
+    height: fit-content;
+    padding: 2% 5%;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+#LoboSeccion{
+    float: left;
+    height: fit-content;
+    width: 96%;
+    background-color: rgba(14, 22, 43, 0.75);
+    padding: 2%;
+    position: relative;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+hr{
+    height: 5px;
+    border: none;
+    background-color: aliceblue;
+}
+
+.ImagenesSeccion{
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+}
+.ImagenesSeccion2{
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+}
+
+.ImagenesSeccion img, .ImagenesSeccion2 img{
+    height: 15em;
+    margin: 0 0 20px 15px;
+}
+
+#LoboVideo{
+    width: 550px;
+    float: right;
+    margin-right: 10%;
+}
+
+#ImagenDecorativa{
+    position: absolute;
+    width: 30%;
+    bottom: 2%;
+    left: 3%;
+}
+
+#ImagenDecorativa2{
+    position: absolute;
+    width: 50%;
+    bottom: 2%;
+    right: 2%;
+}
+
+#JaguarSeccion{
+    float: left;
+    height: fit-content;
+    width: 96%;
+    background-color: rgb(31, 24, 37,0.75);
+    color: coral;
+    padding: 2%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#BallenaSeccion{
+    float: left;
+    height: fit-content;
+    width: 96%;
+    background-color: rgb(18, 23, 43, 0.75);
+    color: cyan;
+    padding: 2%;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+#JaguarVideo{
+    width: 550px;
+    float: left;
+    margin-left: 10%;
+}
+
+#BallenaVideo{
+    width: 550px;
+    float: right;
+    margin-right: 10%;
+}
+
+#ImagenDecorativa3{
+    position: absolute;
+    width: 50%;
+    bottom: 5%;
+    left: -8%;
+    transform: rotate(10deg);
+}
+
+#Miscelaneo{
+    float: left;
+    height: fit-content;
+    width: 96%;
+    background-color: aliceblue;
+    color: rgb(16, 10, 45);
+    padding: 2%;
+    position: relative;
+}
+
+.ImagenesSeccion3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ImagenesSeccion3 figure{
+    width: 45%;
+    margin: 2%;
+}
+
+.ImagenesSeccion3 figure img{
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .ImagenesSeccion, .ImagenesSeccion2, .ImagenesSeccion3{
+        float: left;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+     
+    }
+
+    .ImagenesSeccion img, .ImagenesSeccion a, .ImagenesSeccion2 a, .ImagenesSeccion2 img, .ImagenesSeccion3 img, .ImagenesSeccion3 figure{
+        width: 80%;
+        float: left;
+        height: auto;
+        margin: 10px auto;
+    }
+    #LoboVideo, #JaguarVideo, #BallenaVideo{
+        width: 90%;
+        float: left;
+        margin: 10px 5%;
+    }
+
+    .ImagenesSeccion a img, .ImagenesSeccion2 a img, .ImagenesSeccion3 a img{
+        width: 100%;
+    }
+
+    #ImagenDecorativa3{
+        bottom: 12%;
+        left: 0px;
+    }
+
+}

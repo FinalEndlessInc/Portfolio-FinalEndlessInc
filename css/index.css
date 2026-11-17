@@ -1,0 +1,167 @@
+#Banner{
+    float: left;
+    width: 90%;
+    height: 400px;
+    padding: 2% 5%;
+    position: relative;
+}
+
+#Banner #Abeja{
+    position: absolute;
+    width: 25%;
+    bottom: 6%;
+    left: 2%;
+}
+
+h1{
+    font-size: 40px;
+    color: aliceblue;
+}
+
+#TextoBanner{
+    position: relative;
+    width: 64%;
+    height: fit-content;
+    padding: 1.5% 3%;
+    float: right;
+    background-color: rgba(240, 248, 255, 0.85);
+    border-radius: 10px;
+}
+#TextoBanner p{
+    font-size: 16px;
+}
+
+#RedesBanner{
+    width: 100%;
+    display: flex;
+}
+
+#RedesBanner figure{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#RedesBanner figure a{
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#RedesBanner figure a img{
+    width: 20%;
+}
+
+#Seccion3D, #SeccionIlustraciones, #Seccion2D, #SeccionBazares{
+    float: left;
+    width: 96%;
+    padding: 3% 2%;
+    background-color: rgba(20, 11, 37, 0.865);
+    color: aliceblue;
+    position: relative;
+    border-top: solid whitesmoke 2px;
+    transition: background-color 0.5s;
+}
+
+#Seccion3D:hover, #SeccionIlustraciones:hover, #Seccion2D:hover, #SeccionBazares:hover{
+    background-color: rgba(128, 0, 128, 0.5);
+}
+
+#Seccion3D a, #SeccionIlustraciones a, #Seccion2D a, #SeccionBazares a{
+    color: aliceblue;
+    width: 20%;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 2%;
+    background-color: blueviolet;
+    border-radius: 20px;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+
+.Izquierda{
+    float: left;
+    display: flex;
+    flex-flow: column;
+    align-items: normal;
+}
+
+#Seccion3D a:hover, #SeccionIlustraciones a:hover, #Seccion2D a:hover, #SeccionBazares a:hover{
+    background-color: rgb(36, 10, 60);
+}
+
+#Seccion3D img{
+    position: absolute;
+    height: 100%;
+    right: 5%;
+    bottom: 1%;
+}
+
+
+.Derecha{
+    float: right;
+    display: flex;
+    flex-flow: column;
+    align-items: end;
+    text-align: right;
+}
+
+#Seccion3D p, #SeccionIlustraciones p, #Seccion2D p, #SeccionBazares p{
+    width: 50%;
+    font-size: 18px;
+    margin: 20px 0;
+
+}
+
+
+.Derecha img{
+    position: absolute;
+    height: 105%;
+    left: 2%;
+    bottom: 1%;
+}
+
+#SeccionIlustraciones img{
+    position: absolute;
+    height: 105%;
+    right: 4%;
+    bottom: 2%;
+}
+
+#SeccionBazares img{
+    height: 105%;
+    left: 5%;
+}
+
+@media screen and (max-width: 700px) {
+    #Banner{
+        height: fit-content;
+    }
+    #RedesBanner{
+        flex-direction: column;
+    }
+    #RedesBanner figure{
+        width: 50%;
+        margin: 20px auto;
+    }
+    #TextoBanner{
+        width: 80%;
+        float: none;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 5% 5%;
+    }
+    #Abeja{
+        z-index: 5;
+    }
+    #Seccion3D a, #SeccionIlustraciones a, #Seccion2D a, #SeccionBazares a{
+        width: 50%;
+    }
+
+    #Seccion3D img{
+        right: -5%;
+    }
+}

@@ -1,0 +1,30 @@
+#PlantillaBazares{
+    width: 80%;
+    padding: 2% 5%;
+    background-color: aliceblue;
+    margin: 0 auto;
+}
+
+#ContenedorImagenes{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+#ContenedorImagenes a{
+    padding: 10px;
+    margin: 0 auto;
+}
+#ContenedorImagenes img{
+    height: 400px;
+}
+
+@media screen and (max-width:1050px){
+    #ContenedorImagenes img{
+        width: 100%;
+        height: auto;
+    }
+}

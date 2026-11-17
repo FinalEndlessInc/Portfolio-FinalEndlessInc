@@ -1,0 +1,22 @@
+#Plantilla2D{
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 2% 5%;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+
+#ContenedorVideos{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    background-color: aliceblue;
+}
+
+#Plantilla2D figure{
+    width: 80%;
+    margin: 35px auto;
+}
