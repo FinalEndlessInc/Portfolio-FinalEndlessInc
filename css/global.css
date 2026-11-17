@@ -40,7 +40,7 @@ nav{
 
 nav a{
     margin: 0 15px;
-    font-size: 20px;
+    font-size: 2vw;
     color: aliceblue;
     text-decoration: none;
     padding: 8px;
@@ -100,7 +100,7 @@ h5{
 
 @media screen and (max-width: 800px) {
     #ElementosBarra a{
-        font-size: 15px;
-    margin: 15px auto;
+    
+        margin: 15px auto;
 }
 }
